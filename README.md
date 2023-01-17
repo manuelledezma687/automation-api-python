@@ -11,6 +11,7 @@
 
 
 ## feature/02-test-python-api
+
     -Armar módulo tests y archivo config
     - Armar la carpeta data y hacer un read_file en helpers (2 funciones)
     - Luego importar a test e incorporar en el dump el reader con el archivo.
