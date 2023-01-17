@@ -11,6 +11,7 @@
 
 
 ## feature/02-test-python-api
+
     -Armar módulo tests y archivo config
     - Armar la carpeta data y hacer un read_file en helpers (2 funciones)
     - Luego importar a test e incorporar en el dump el reader con el archivo.
@@ -19,9 +20,9 @@
 
     - Hacer la utils de assertion y request e importar al archivo de booking_test
 
-## feature/01-test-python-api
+## feature/04-test-python-api
 
-    - Terminar de refactorizar el código en request y booking_test
+    - Incorporar reportes en Allure y decoradores en Pytest y Allure
 
 ## Lista de Comandos para Allure:
     @allure.description('description') # Descripción del test
