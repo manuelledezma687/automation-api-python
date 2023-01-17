@@ -20,9 +20,9 @@
 
     - Hacer la utils de assertion y request e importar al archivo de booking_test
 
-## feature/01-test-python-api
+## feature/04-test-python-api
 
-    - Terminar de refactorizar el código en request y booking_test
+    - Incorporar reportes en Allure y decoradores en Pytest y Allure
 
 ## Lista de Comandos para Allure:
     @allure.description('description') # Descripción del test
