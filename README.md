@@ -1,7 +1,7 @@
-### API framework with Python
+# API framework with Python
 
 
-# Pasos seguidos en el workshop dictado:
+### Pasos seguidos en el workshop dictado:
 ## Armar un proyecto: 
     - Entorno: python3 -m venv venv 
     - instalar las dependencias: pytest, requests, assertpy
