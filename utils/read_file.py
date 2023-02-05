@@ -6,8 +6,8 @@ BASE_PATH = Path.cwd().joinpath( 'tests', 'data')
 
 def reader(file_name):
     path = get_file_with_json(file_name)
-    
-    with path.open(mode='r') as f:
+
+    with path.open(mode='r',encoding="utf8") as f:
         return json.load(f)
 
 def get_file_with_json(file_name):

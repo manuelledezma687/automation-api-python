@@ -1,1 +1,3 @@
-BASE_URI = 'http://127.0.0.1:8000/bookings'
+
+class Data:
+    BASE_URI = 'https://api.escuelajs.co/api/v1/products'
