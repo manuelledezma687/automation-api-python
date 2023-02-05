@@ -1,29 +1,19 @@
 ### API framework with Python
 
 
-## feature/01-test-python-api
-    - Armar un proyecto: 
-        Entorno: python3 -m venv venv 
-        instalar las dependencias: pytest, requests, assertpy
-        Armar bookings_test.py
+# Pasos seguidos en el workshop dictado:
+## Armar un proyecto: 
+    - Entorno: python3 -m venv venv 
+    - instalar las dependencias: pytest, requests, assertpy
+    - Armar bookings_test.py
     - Redactar los tests con los módulos json, assert y requests.
-
-
-## feature/02-test-python-api
-    -Armar módulo tests, utils y archivo config.
+    - Armar módulo tests, utils y archivo config.
     - Armar la carpeta data y hacer un read_file en helpers (2 funciones).
     - Luego importar a test e incorporar en el dump el reader con el archivo.
-
-## feature/03-test-python-api
-    - Incorporar el archivo pytest.ini
-    - Hacer la utils de Assertions y requests e importar al archivo de booking_test.
     - Establecer el BaseClient
-
-## feature/04-test-python-api
-    pip install allure-pytest==2.8.13
+    - pip install allure-pytest==2.8.13
     - Incorporar reportes en Allure y decoradores en Pytest y Allure.
     - Trabajar en el archivo pytest.ini
-
 ## Lista de Comandos para Allure:
     @allure.description('description') # Descripción del test
     @allure.testcase('testcase_url', 'testcase_name') # Link relacionado al caso de prueba
