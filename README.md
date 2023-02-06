@@ -1,6 +1,4 @@
 # API framework with Python
-
-
 ### Pasos seguidos en el workshop dictado:
 ## Armar un proyecto: 
     - Entorno: python3 -m venv venv 
@@ -10,7 +8,6 @@
     - Armar módulo tests, utils y archivo config.
     - Armar la carpeta data y hacer un read_file en helpers (2 funciones).
     - Luego importar a test e incorporar en el dump el reader con el archivo.
-    - Establecer el BaseClient
     - pip install allure-pytest==2.8.13
     - Incorporar reportes en Allure y decoradores en Pytest y Allure.
     - Trabajar en el archivo pytest.ini
