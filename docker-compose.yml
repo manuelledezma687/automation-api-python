@@ -1,0 +1,9 @@
+services:
+  automation-api-python:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - .:/automation-api-python
+    ports:
+      - '80:80'
