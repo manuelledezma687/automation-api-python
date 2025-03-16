@@ -28,7 +28,7 @@ jobs:
 
       - name: Run API tests with pytest
         run: |
-          pytest --html=report.html --self-contained-html
+          pytest
 
       - name: Upload test report
         uses: actions/upload-artifact@v4
